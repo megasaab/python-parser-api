@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  scrapper:
+    build:
+      context: ./
+    ports:
+      - "5000:5000"
+#    environment:
+#      VIRTUAL_HOST: flask.megasaab98.com
+#      VIRTUAL_PORT: 5000
+#      LETSENCRYPT_HOST: flask.megasaab98.com
+#      LETSENCRYPT_EMAIL: azhg.sabyrzhan@gmail.com
+#    networks:
+#      - https
+#
+#networks:
+#  https:
+#    external:
+#      name: https_network
